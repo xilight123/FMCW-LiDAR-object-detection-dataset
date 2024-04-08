@@ -1,5 +1,28 @@
 # FMCW-object-detection-dataset
 FMCW object detection dataset based on CARLA
 
-<img width="572" alt="dataset" src="https://github.com/xilight123/FMCW-object-detection-dataset/assets/52308432/deec1663-1b74-4f6c-b498-f6c85b53625e">
+**Dataset structure**：
+FMCWLidDet_Dataset
+ |
+ |-- bags
+ |    |-- Town 01.bag
+ |    |-- Town 02.bag
+ |    |-- ...
+ |-- pcds
+ |    |-- 000001.pcd
+ |    |-- 000002.pcd
+ |    |-- ...
+ |-- bins
+ |    |-- 000001.bin
+ |    |-- 000002.bin
+ |    |-- ...
+ |-- labels
+ |    |-- 000001.txt
+ |    |-- 000002.txt
+ |    |-- ...
+ |-- ImageSets
+      |-- train.txt
+      |-- val.txt
+      |--test.txt
+
 
