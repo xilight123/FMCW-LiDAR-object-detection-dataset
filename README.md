@@ -1,6 +1,6 @@
 # FMCW-object-detection-dataset
-FMCW LiDAR Point Cloud of object detection dataset based on CARLA
-
+FMCW LiDAR Point Cloud of object detection dataset based on CARLA, FMCWLidDet.
+Point cloud data contains three-dimensional coordinate information (x, y, z) and Doppler velocity information (v) of points.
 ## Dataset structure
     FMCWLidDet_Dataset
     |
